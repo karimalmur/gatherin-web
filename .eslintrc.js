@@ -1,4 +1,5 @@
 module.exports = {
+    root: true,
     "env": {
         "browser": true,
         "es6": true
@@ -7,6 +8,7 @@ module.exports = {
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
         "prettier",
         "prettier/react",
         "prettier/@typescript-eslint",
